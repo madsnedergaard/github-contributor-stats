@@ -1,0 +1,11 @@
+{
+    "name": "github-contributor-stats",
+    "version": "1.0.0",
+    "description": "Get the amount of people with non-code contributions",
+    "main": "index.mjs",
+    "dependencies": {
+        "octokit": "^2.0.14"
+    },
+    "author": "madsnedergaard",
+    "license": "UNLICENSED"
+}
