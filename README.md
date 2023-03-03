@@ -4,6 +4,8 @@ Get the **actual** amount of people who have contributed to a GitHub repository 
 
 ![Screenshot of the app](./screenshot.png)
 
+_Hack day project at [Electricity Maps](https://github.com/electricitymaps?type=source)_
+
 The scraper saves data to JSON files for easy calculations, while the web app is just a fun way to visualise the numbers.
 
 ## Getting started
