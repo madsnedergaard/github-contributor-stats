@@ -2,7 +2,9 @@
 
 Get the **actual** amount of people who have contributed to a GitHub repository - not just the people who have committed code.
 
-The scraper saves data to JSON files for easy calculations.
+![Screenshot of the app](./screenshot.png)
+
+The scraper saves data to JSON files for easy calculations, while the web app is just a fun way to visualise the numbers.
 
 ## Getting started
 
@@ -15,4 +17,6 @@ npm install
 # 3. Run scraper
 GITHUB_TOKEN=XXX node scraper.mjs
 
+# 4. Run web app to see results
+npm run dev
 ```

@@ -3,9 +3,25 @@
     "version": "1.0.0",
     "description": "Get the amount of people with non-code contributions",
     "main": "index.mjs",
-    "dependencies": {
-        "octokit": "^2.0.14"
-    },
     "author": "madsnedergaard",
-    "license": "UNLICENSED"
+    "license": "UNLICENSED",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@tailwindcss/typography": "^0.5.9",
+        "octokit": "^2.0.14",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^1.0.7",
+        "autoprefixer": "^10.4.2",
+        "daisyui": "^2.6.0",
+        "postcss": "^8.4.7",
+        "tailwindcss": "^3.0.23",
+        "vite": "^2.8.0"
+    }
 }
